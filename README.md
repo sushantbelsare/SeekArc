@@ -3,6 +3,8 @@ SeekArc : An Android Library For Circular SeekBar
 
 SeekArc is an android UI library that can be used to show progress or modify it.
 
+![Clockwise](https://github.com/sushantbelsare/SeekArc/blob/master/SeekArcGIFS/clockwise.gif) ![Anticlockwise](https://github.com/sushantbelsare/SeekArc/blob/master/SeekArcGIFS/anticlockwise.gif)
+
 ---
 
 **Gradle Dependency**
