@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.savantech.seekarclibrarydemo.MainActivity"
+    android:clipToPadding="false"
+    android:clipChildren="false">
+
+    <com.savantech.seekarc.SeekArc
+        android:id="@+id/seekArc"
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        app:startAngle="180"
+        app:sweepAngle="180"
+        app:arcColor="@android:color/darker_gray"
+        app:progressColor="@android:color/holo_blue_dark"
+        app:thumbColor="@android:color/holo_blue_light"
+        app:thumbRadius="12dp"
+        app:arcWidth="5dp"
+        app:progress="90"
+        app:roundCorner="true"
+        app:seekDirection="clockwise"
+        app:maxProgress="100"
+        />
+</RelativeLayout>
